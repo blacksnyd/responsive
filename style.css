@@ -87,3 +87,22 @@ footer .footer-container {
   padding: 1vw 20vw;
   max-width: 900px;
 }
+.burger {
+  display: none;
+}
+@media (max-width: 900px) {
+  .header-container {
+    padding: 1vw 10vw !important;
+  }
+  .burger {
+    cursor: pointer;
+    display: block;
+  }
+  .burger i {
+    color: white;
+    font-size: 2em;
+  }
+  .nav {
+    display: none !important;
+  }
+}
